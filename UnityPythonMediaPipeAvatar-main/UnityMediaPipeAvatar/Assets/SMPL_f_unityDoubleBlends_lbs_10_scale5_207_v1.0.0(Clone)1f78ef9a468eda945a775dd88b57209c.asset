@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1260b785da3e24ebe737764cc33de0, type: 3}
+  m_Name: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)1f78ef9a468eda945a775dd88b57209c
+  m_EditorClassIdentifier: 
+  note: 
+  parentCalibrationData:
+  - bone: 14
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_R_Collar/f_avg_R_Shoulder/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_R_Collar/f_avg_R_Shoulder/f_avg_R_Elbow/
+      tparentn: PipeServer/Body Parent/RIGHT_SHOULDER/
+      tchildn: PipeServer/Body Parent/RIGHT_ELBOW/
+      initialDir: {x: -0.99606276, y: -0.0019219969, z: 0.088630274}
+      initialRotation: {x: -0.00489752, y: 0.9998749, z: -0.00023137967, w: 0.0150355715}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 16
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_R_Collar/f_avg_R_Shoulder/f_avg_R_Elbow/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_R_Collar/f_avg_R_Shoulder/f_avg_R_Elbow/f_avg_R_Wrist/
+      tparentn: PipeServer/Body Parent/RIGHT_ELBOW/
+      tchildn: PipeServer/Body Parent/RIGHT_WRIST/
+      initialDir: {x: -0.99162894, y: -0.12876695, z: 0.009541927}
+      initialRotation: {x: -0.00489752, y: 0.9998749, z: -0.00023137967, w: 0.0150355715}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 2
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/f_avg_R_Knee/
+      tparentn: PipeServer/Body Parent/RIGHT_HIP/
+      tchildn: PipeServer/Body Parent/RIGHT_KNEE/
+      initialDir: {x: -0.07260991, y: -0.99726886, z: 0.013513482}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 4
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/f_avg_R_Knee/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/f_avg_R_Knee/f_avg_R_Ankle/
+      tparentn: PipeServer/Body Parent/RIGHT_KNEE/
+      tchildn: PipeServer/Body Parent/RIGHT_ANKLE/
+      initialDir: {x: -0.00781961, y: -0.9178947, z: 0.396747}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 13
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_L_Collar/f_avg_L_Shoulder/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_L_Collar/f_avg_L_Shoulder/f_avg_L_Elbow/
+      tparentn: PipeServer/Body Parent/LEFT_SHOULDER/
+      tchildn: PipeServer/Body Parent/LEFT_ELBOW/
+      initialDir: {x: 0.9132538, y: -0.35870796, z: -0.19312218}
+      initialRotation: {x: 0.0014009019, y: 0.9997407, z: -0.00036697736, w: -0.022731334}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 15
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_L_Collar/f_avg_L_Shoulder/f_avg_L_Elbow/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_L_Collar/f_avg_L_Shoulder/f_avg_L_Elbow/f_avg_L_Wrist/
+      tparentn: PipeServer/Body Parent/LEFT_ELBOW/
+      tchildn: PipeServer/Body Parent/LEFT_WRIST/
+      initialDir: {x: 0.9645504, y: 0.036012884, z: -0.26142997}
+      initialRotation: {x: 0.0014009019, y: 0.9997407, z: -0.00036697736, w: -0.022731334}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 1
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/f_avg_L_Knee/
+      tparentn: PipeServer/Body Parent/LEFT_HIP/
+      tchildn: PipeServer/Body Parent/LEFT_KNEE/
+      initialDir: {x: -0.087048106, y: -0.989534, z: 0.11508771}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 3
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/f_avg_L_Knee/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/f_avg_L_Knee/f_avg_L_Ankle/
+      tparentn: PipeServer/Body Parent/LEFT_KNEE/
+      tchildn: PipeServer/Body Parent/LEFT_ANKLE/
+      initialDir: {x: 0.102688566, y: -0.9392723, z: 0.32744882}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 5
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/f_avg_L_Knee/f_avg_L_Ankle/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_L_Hip/f_avg_L_Knee/f_avg_L_Ankle/f_avg_L_Foot/
+      tparentn: PipeServer/Body Parent/LEFT_ANKLE/
+      tchildn: PipeServer/Body Parent/LEFT_FOOT_INDEX/
+      initialDir: {x: 0.21468294, y: -0.31045175, z: -0.9260297}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 6
+    data:
+      parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/f_avg_R_Knee/f_avg_R_Ankle/
+      childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_R_Hip/f_avg_R_Knee/f_avg_R_Ankle/f_avg_R_Foot/
+      tparentn: PipeServer/Body Parent/RIGHT_ANKLE/
+      tchildn: PipeServer/Body Parent/RIGHT_FOOT_INDEX/
+      initialDir: {x: 0.16650133, y: -0.6260886, z: -0.7617679}
+      initialRotation: {x: -0, y: 1, z: -0, w: 0}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  spineUpDown:
+    parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/
+    childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_Neck/
+    tparentn: VirtualHip/
+    tchildn: VirtualNeck/
+    initialDir: {x: -0.035519987, y: 0.94119954, z: -0.33597866}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  hipsTwist:
+    parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/
+    childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9699864, y: 0.00057011825, z: -0.24315855}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  chest:
+    parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/
+    childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9699864, y: 0.00057011825, z: -0.24315855}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  head:
+    parentn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_Neck/
+    childn: SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0(Clone)/f_avg_root/f_avg_Pelvis/f_avg_Spine1/f_avg_Spine2/f_avg_Spine3/f_avg_Neck/f_avg_Head/
+    tparentn: VirtualNeck/
+    tchildn: PipeServer/Body Parent/NOSE/
+    initialDir: {x: -0.03256142, y: 0.37752876, z: -0.9254252}
+    initialRotation: {x: -0.006618451, y: 0.99550533, z: 0.09447419, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
